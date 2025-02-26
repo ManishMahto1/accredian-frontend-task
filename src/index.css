@@ -1,0 +1,14 @@
+@import "tailwindcss";
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f9ff;
+    color: #333;
+  }
+  
+  .App {
+    text-align: center;
+  }
+
+  
