@@ -62,11 +62,13 @@ function ReferModal({ isOpen, onClose }) {
     setErrors({}); // Clear errors when moving back
   };
 
+
+  const api_url = 'https://accredian-backend-task-y038.onrender.com';
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (validateStep() && currentStep === 2) {
       try {
-        const response = await fetch('http://localhost:3001/api/referrals', {
+        const response = await fetch(api_url, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
