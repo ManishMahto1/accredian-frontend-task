@@ -28,7 +28,7 @@ function FAQ() {
         ))}
       </div>
       <div className="bg-[#007bff] text-white p-5 mt-5 rounded">
-        <h3 className="text-xl mb-2.5">Want to delve deeper into the program?</h3>
+        <h3 className="text-xl mb-2.5">Have questions about referrals?</h3>
         <p className="mb-2.5">Share your details to receive insights from our program team</p>
         <button className="bg-white text-blue-600 px-5 py-2.5 rounded cursor-pointer hover:bg-gray-200">
           Get in touch
